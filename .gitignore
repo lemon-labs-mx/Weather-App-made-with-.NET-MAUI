@@ -1,0 +1,81 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.vsp*
+*.pidb
+*.sln.docstates
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Rider files
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# Logs
+*.log
+Logs/
+
+# Xamarin/Maui
+*.apk
+*.aab
+*.ipa
+
+# .NET Core
+project.lock.json
+project.assets.json
+
+# Debugging files
+*.pdb
+*.ilk
+*.obj
+*.sbr
+*.aps
+*.idb
+
+# Temporary files
+*.tmp
+*.cache
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Node.js (si usas algún paquete npm para frontend)
+node_modules/
+
+# MAUI specific
+AppPackages/
+BundleArtifacts/
+TestResults/
+.fastlane/
+*.app
+*.xcworkspace/
+*.xcuserstate
+
+# Generated files
+GeneratedProj/
+CMakeLists.txt.user
+
+# Configuration files
+.env
+*.env.local
